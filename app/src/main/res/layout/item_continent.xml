@@ -8,13 +8,13 @@
 
     <ImageView
         android:id="@+id/img_continent"
-        android:layout_width="140dp"
-        android:layout_height="95dp"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
         android:scaleType="centerCrop"
         android:src="@mipmap/ic_launcher"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tv_continent"
@@ -22,11 +22,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:textColor="@color/black"
-        android:textSize="26sp"
+        android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@id/img_continent"
         app:layout_constraintStart_toStartOf="@id/img_continent"
         app:layout_constraintTop_toBottomOf="@id/img_continent"
-        tools:text="Евразия"/>
+        tools:text="Евразия" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

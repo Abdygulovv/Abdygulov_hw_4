@@ -83,7 +83,7 @@ public class CountryFragment extends Fragment {
 
     private void loadSouthAmerica() {
         countries.add(new Country("https://worldnomadgames.com/media/images/flags/%D0%91%D1%80%D0%B0%D0%B7%D0%B8%D0%BB%D0%B8%D1%8F_YCjTSyy.png", "Бразилия"));
-        countries.add(new Country("https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg", "Аргентина"));
+        countries.add(new Country("https://www.flagcolorcodes.com/filter?f=argentina&e=waves", "Аргентина"));
         countries.add(new Country("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/800px-Flag_of_Uruguay.svg.png", "Уругвай"));
         countries.add(new Country("https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/800px-Flag_of_Colombia.svg.png", "Колумбия"));
         countries.add(new Country("https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/1200px-Flag_of_Peru_%28state%29.svg.png", "Перу"));
