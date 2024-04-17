@@ -47,7 +47,7 @@ class CountryViewHolder extends RecyclerView.ViewHolder {
 
     public void bind(Country country) {
         binding.tvCountry.setText(country.getCountryName());
-        Glide.with(binding.imgCountry).load(country.getImgCountry()).into(binding.imgCountry);
+        Glide.with(binding.imgCountry).load(country.getFlag()).into(binding.imgCountry);
 
     }
 }

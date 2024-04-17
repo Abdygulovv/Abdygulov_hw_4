@@ -37,21 +37,21 @@ public class ContinentFragment extends Fragment implements OnClick {
     }
 
     private void loadData() {
-        continents.add(new Continent("https://8b08ab88-ee1b-4b04-9ae9-321e0da71ae2.selcdn.net/44a642af-8f34-4e32-99d0-10e585328f5d/%D0%95%D0%B2%D1%80%D0%B0%D0%B7%D0%B8%D1%8F%203-w658.png","Евразия"));
-        continents.add(new Continent("https://e7.pngegg.com/pngimages/983/676/png-clipart-flags-of-south-america-united-states-of-america-continent-map-map-flag-world.png","Южная Америка"));
-        continents.add(new Continent("https://klev.club/uploads/posts/2023-10/1697620733_klev-club-p-risunki-karta-severnoi-ameriki-34.jpg","Северная Америка"));
-        continents.add(new Continent("https://klev.club/uploads/posts/2023-10/1697613476_klev-club-p-risunki-karta-avstralii-7.jpg","Австралия"));
-        continents.add(new Continent("https://8b08ab88-ee1b-4b04-9ae9-321e0da71ae2.selcdn.net/573e2c8d-9fea-4e92-aff5-91cf402eb2b5/%D0%90%D1%84%D1%80%D0%B8%D0%BA%D0%B0w658.png","Африка"));
+        continents.add(new Continent("https://8b08ab88-ee1b-4b04-9ae9-321e0da71ae2.selcdn.net/44a642af-8f34-4e32-99d0-10e585328f5d/%D0%95%D0%B2%D1%80%D0%B0%D0%B7%D0%B8%D1%8F%203-w658.png", "Евразия"));
+        continents.add(new Continent("https://e7.pngegg.com/pngimages/983/676/png-clipart-flags-of-south-america-united-states-of-america-continent-map-map-flag-world.png", "Южная Америка"));
+        continents.add(new Continent("https://klev.club/uploads/posts/2023-10/1697620733_klev-club-p-risunki-karta-severnoi-ameriki-34.jpg", "Северная Америка"));
+        continents.add(new Continent("https://klev.club/uploads/posts/2023-10/1697613476_klev-club-p-risunki-karta-avstralii-7.jpg", "Австралия"));
+        continents.add(new Continent("https://8b08ab88-ee1b-4b04-9ae9-321e0da71ae2.selcdn.net/573e2c8d-9fea-4e92-aff5-91cf402eb2b5/%D0%90%D1%84%D1%80%D0%B8%D0%BA%D0%B0w658.png", "Африка"));
     }
 
     @Override
     public void onClick(int position) {
         Bundle bundle = new Bundle();
-        bundle.putInt("continent",position);
+        bundle.putInt("continent", position);
 
         CountryFragment countryFragment = new CountryFragment();
         countryFragment.setArguments(bundle);
         requireActivity().getSupportFragmentManager().beginTransaction()
-                .replace(R.id.container_fragment,countryFragment).addToBackStack(null).commit();
+                .replace(R.id.container_fragment, countryFragment).addToBackStack(null).commit();
     }
 }

@@ -10,8 +10,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.abdygulov_hw_4.R;
-import com.example.abdygulov_hw_4.databinding.FragmentContinentBinding;
 import com.example.abdygulov_hw_4.databinding.FragmentCountryBinding;
 
 import java.util.ArrayList;

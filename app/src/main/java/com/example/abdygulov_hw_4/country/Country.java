@@ -2,16 +2,16 @@ package com.example.abdygulov_hw_4.country;
 
 public class Country {
 
-    private String imgCountry;
+    private String flag;
     private String countryName;
 
-    public Country(String imgCountry, String countryName) {
-        this.imgCountry = imgCountry;
+    public Country(String flag, String countryName) {
+        this.flag = flag;
         this.countryName = countryName;
     }
 
-    public String getImgCountry() {
-        return imgCountry;
+    public String getFlag() {
+        return flag;
     }
 
     public String getCountryName() {
